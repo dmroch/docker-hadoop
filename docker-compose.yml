@@ -12,7 +12,7 @@ services:
     env_file:
       - ./hadoop.env
     ports:
-      - "9870:50070"
+      - "9870:9870"
   
   resourcemanager:
     build: ./resourcemanager
